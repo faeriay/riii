@@ -1,0 +1,27 @@
+
+pip install django
+
+sudo python manage.py runserver 0.0.0.0:80
+
+chrome:postman 攔截聆聽器，模擬資訊
+
+傳統標籤	<html>
+			<js>
+			</js>
+		</html>
+	混用許多css與js，可讀性低
+
+django MVC架構:model.py(database), html, controller
+
+http request ->url.py(getuser/userid)->view.py(touch getuser)
+		｜	 ->profile.html|
+		<-------------------
+
+import json
+pchome 24h -> chrome monitor是以jason_prod傳輸價格資訊
+		daacso4
+
+
+pdsearch 資料庫個資清查工具
+
+

@@ -1,0 +1,17 @@
+
+
+session說明
+http://fred-zone.blogspot.tw/2014/01/web-session.html
+
+
+PY轉換成執行檔
+1.
+py2exe
+
+
+2.
+
+vi t1.py
+chmod 755 t1.sh 
+./t1.sh
+whoosh jieba
