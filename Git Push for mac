@@ -1,0 +1,74 @@
+QUICK GUIDE TO GIT AND GITHUB – OSX COMMAND LINE (CLI)
+Posted on November 1, 2014	by jgezau	Leave a comment
+
+URL:http://esausilva.com/2014/11/01/quick-guide-to-git-and-github-osx-command-line-cli/
+
+$自己修改版
+至上傳github的目錄夾
+-cd ~/documents/dropbox/2015bigdata/python/riii 
+-git config --global user.name "faeriay"
+-git config --global user.email faeriay@gmail.com
+-git commit -m 'first project version'
+-git push -u origin master
+
+1
+$ git --version
+Add your name to Git configuration
+
+1
+$ git config --global user.name "Esau Silva"
+Add your email to Git configuration
+
+1
+$ git config --global user.email esausilva85@gmail.com
+Make an alias to checkout
+
+1
+$ git config --global alias.co checkout
+Make an alias to create a branch
+
+1
+$ git config --global alias.br branch
+Make an alias to commit
+
+1
+$ git config --global alias.ct commit
+Make an alias to show the status
+
+1
+$ git config --global alias.st status
+This will show all your Git configurations
+
+1
+$ git config --list
+Before you start uploading your code to GitHut, you will need to create an account with GitHub, create a repository and generate an SSH key. Follow the following guide to create the SSH key Generating SSH Keys
+
+Once you have created your account and generated the SSH Key, you are ready to start using GitHub
+
+At this point, you will need to be at the root of your project
+
+
+Initializes the repository
+
+1
+$ git init
+Add all the files of your project to the staging area
+
+1
+$ git add .
+If you want to see all the files that will be added to Git
+
+1
+$ git status
+Commits your code to Git
+
+1
+$ git commit -m 'first project version'
+Sets up GitHub as the origin for the master branch. Remember yo change <<username>> with your GitHub username, and <<repository_name>> with the name of the repository you created
+
+1
+$ git remote add origin git@github.com:<<username>>/<<repository_name>>
+Finally push your project files to GitHub. Remember to always push the origin to master
+
+1
+$ git push -u origin master

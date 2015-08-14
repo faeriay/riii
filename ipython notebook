@@ -1,0 +1,6 @@
+ipython notebook
+
+$setting default directory
+	-vim ~/.ipython/profile_default/ipython_notebook_config.py
+	/c.NotebookApp.notebook_dir #尋找此路徑字典
+	'/Users/jokan/Documents/Dropbox/2015bigdata/Python/riii' #設定路徑

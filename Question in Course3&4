@@ -1,0 +1,13 @@
+
+Q1:
+	line 43
+	soup_rows = soup_table.select('tr')[1:-1]
+
+	使用print soup_rows 只抓到一點點資料
+
+
+	line45
+	    for soup_row in soup_rows:
+	        link_href = soup_row.select('a')[0]['href'][2:]
+	print link_href卻能抓到非常多的tr的link的標籤
+	無法理解
