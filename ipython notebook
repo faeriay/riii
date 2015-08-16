@@ -4,3 +4,9 @@ $setting default directory
 	-vim ~/.ipython/profile_default/ipython_notebook_config.py
 	/c.NotebookApp.notebook_dir #尋找此路徑字典
 	'/Users/jokan/Documents/Dropbox/2015bigdata/Python/riii' #設定路徑
+
+$setting default directory IN windows
+	路徑：c:\users\bigdata\.python\profile_default
+	開啟：ipython_notebook_config.py
+	修改：
+	# c.NotebookManager.notebook_dir = 'D:\\Documents\\Desktop'
