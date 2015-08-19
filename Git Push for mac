@@ -6,8 +6,8 @@ URL:http://esausilva.com/2014/11/01/quick-guide-to-git-and-github-osx-command-li
 $自己修改版
 至上傳github的目錄夾
 -cd ~/documents/dropbox/2015bigdata/python/riii 
--git config --global user.name "faeriay"
--git config --global user.email faeriay@gmail.com
+-git init
+-git add .
 -git commit -m 'first project version'
 -git push -u origin master
 
