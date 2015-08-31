@@ -1,0 +1,9 @@
+強制繼續迴圈
+
+selenium運作時有時會抓不到網頁，整個程式被迫停下來。以下程式可強迫它繼續迴圈。
+
+
+try:
+		
+except NoSuchElementException:
+		pass
