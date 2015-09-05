@@ -1,0 +1,23 @@
+#1:1.[0] NP(Head:NP(Head:N:原告|DET:乙)|DET:○)#
+#1:1.[0] NP(Head:NP(Head:N:被告|DET:甲)|DET:○○)#
+#1:1.[0] S(NP(NP(A:上列|Head:N:當事人)|Head:N:間)|Head:Vi:離婚|N:事件)#，(COMMACATEGORY)
+#2:1.[0] S(NP(DET:本|Head:N:院)|PP(Head:P:於|NP(Head:NP(N:民國|DM:85年|Head:NP(DET:3|Head:N:月))|DM:4日))|ADV:所|C:為之|Head:Vt:判)#
+#1:1.[0] VP(Head:Vt:決)#，(COMMACATEGORY)
+#2:1.[0] VP(ADV:應|Head:Vt:裁定|VP(Head:Vt:更正|VP(Head:Vt:如下)))#：(COLONCATEGORY)
+#1:1.[0] NP(Head:N:主文)#
+#1:1.[0] VP(ADV:原|Head:Vt:判決|VP(ADV:原本|GP(NP(Head:C:、|NP(GP(NP(Head:N:正本)|Head:POST:中)|Head:N:事實欄)|Head:C:及|NP(Head:N:理由欄))|Head:POST:中)|PP(Head:P:關於|NP(Head:N:兩造))|ADV:所|Head:Vt:生|NP(N:子女|Head:N:陳)|VP(ADV:曾|Head:Vi:強)))#
+#1:1.[0] S(NP(NP(NP(S(NP(Head:N:之)|Head:Vi:出生)|Head:M:年)|Head:C:、|NP(Head:N:月))|Head:C:、|NP(Head:N:日))|Head:Vt:即|NP(S‧的(head:S(NP(N:民國|N:七十四年|N:十二月|Head:N:二十日)|Head:Vi:出生)|Head:T:之)|Head:N:記載))#
+#1:1.[0] VP(ADV:應|Head:Vt:更正為|NP(N:民國|N:七十八年|N:十月|Head:N:二十七日)|VP(Head:Vi:出生))#。(PERIODCATEGORY)
+#1:1.[0] NP(NP(N:中華民國|N:95年|DET:7|Head:N:月)|Head:N:13日)#
+#1:1.[0] NP(NP(N:臺北|Head:N:地方)|Head:NP(NP(N:法院|N:家事|N:法庭|Head:N:法官)|Head:N:彭南元))#
+#1:1.[0] S(NP(N:以上|Head:N:正本)|Head:VP(NP(Head:N:證明)|Head:C:與|VP(ADV:原本|Head:Vt:無異)))#。(PERIODCATEGORY)
+#1:1.[0] NP(C:如|NP(PP(Head:P:對|NP(Head:DET:本))|Head:Nv:裁定)|Head:Nv:抗告)#，(COMMACATEGORY)
+#2:1.[0] GP(VP(ADV:須|PP(Head:P:於)|Head:Vt:裁定|NP(VP‧的(head:VP(Head:Vt:送達|NP(DET:後|Head:DM:10日))|Head:T:之)|Vi:不變|Head:N:期間))|Head:POST:內)#，(COMMACATEGORY)
+#3:1.[0] PP(Head:P:向|NP(DET:本|Head:N:院))#
+#1:1.[0] VP(Head:Vt:提出|VP(Head:Vt:抗|VP(Head:Vi:告狀)))#。(PERIODCATEGORY)
+#1:1.[0] NP(NP(N:中華民國|N:95年|DET:7|Head:N:月)|Head:N:13日)#
+#1:1.[0] NP(N:書記官|Head:N:陳俐妙)#
+
+
+
+
